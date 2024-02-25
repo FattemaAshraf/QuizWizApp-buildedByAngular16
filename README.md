@@ -40,7 +40,6 @@
 - Instructor Module
 ![Example screenshot](assets/images/Questions%20-%20Instructor.png)
 ![Example screenshot](assets/images/Quizzes%20-%20Instructor.png)
-![Example screenshot](assets/images/Students%20-%20Instructor.png)
 
 
 
