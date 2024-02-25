@@ -1,0 +1,46 @@
+@import "../abstracts/variables";
+#quizes {
+  .quiz-header {
+    border-radius: $border-reduis;
+    border: $border-cardWidth;
+    padding: $padding-card;
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+  .quiz-header {
+    .quiz-header:hover {
+      background-color: $bs-table-hover-bg;
+    }
+  }
+  a {
+    &.quiz-header:hover{
+      background-color: $bs-table-hover-bg;
+
+    }
+  }
+  img {
+    //background-color: $primary-color;
+  }
+}
+#join-quiz{
+  padding: 0px 20px;
+  .quiz-card{
+.icon{
+
+  border-radius: $border-reduis;
+  border: $border-cardWidth;
+  padding: 20px;
+}
+
+  }
+
+
+}
+
+#close-exam{
+  background: linear-gradient(rgba($bg-color,.8), $bg-color);
+  color: $primary-color;
+  p{
+    color: rgba($primary-color,.8);
+  }
+}

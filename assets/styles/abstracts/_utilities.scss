@@ -1,0 +1,59 @@
+@import "../abstracts/variables";
+
+img{
+    width: 100%;
+    display: block;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.pointer{
+    cursor: pointer;
+}
+.activeStatus{
+  border-radius: $border-reduis;
+  background-color: $sec-color;
+  color: $bg-color;
+  text-align: center;
+  padding:5px;
+}
+.inActiveStatus{
+  border-radius: $border-reduis;
+  background-color: $bg-color;
+  color: white;
+  text-align: center;
+  padding:5px;
+
+}
+//ovveride bootstrap
+.form-select:focus,
+.form-control:focus{
+  border-color: $sec-color;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(0 146 71 / 21%);
+
+}
+.dropdown-menu{
+
+  --bs-dropdown-link-active-bg:#C5D86D;
+}
+
+.pagination{
+  --bs-pagination-color: $bg-color;
+  --bs-link-hover-color: #C5D86D;
+  --bs-pagination-active-bg: #C5D86D;
+  --bs-pagination-active-border-color: #C5D86D;
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgb(0 146 71 / 21%);
+}
+//override angular mrtl
+.mat-mdc-form-field-subscript-wrapper{
+  display: none;
+}
+.mdc-text-field--filled:not(.mdc-text-field--disabled){
+  --mdc-filled-text-field-container-color: white
+}
+.mat-mdc-form-field-focus-overlay{
+  display: none;
+}
