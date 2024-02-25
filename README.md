@@ -45,20 +45,15 @@
 
 
 ## Video
-
-
+[@Click here to see video post linkedin](https://www.linkedin.com/posts/fatma-ashraf-b57279103_quizapp-instructor-code-activity-7167632276875415552-jGYb?utm_source=share&utm_medium=member_desktop)
 
 
 ## Project Status
 Project is:  _complete_ 
 
 
-
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- Many thanks to UpSkilling.eg IT services
 
 
 ## Contact
